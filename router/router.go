@@ -9,7 +9,7 @@ import (
 func main() {
 	engine := gin.Default()
 
-	engine.POST("/register", server.Register)
+	engine.POST("/register", server.Register) /////
 
 	fmt.Println("我是hyx")
 
