@@ -12,6 +12,7 @@ func main() {
 	engine.POST("/register", server.Register) /////
 
 	fmt.Println("我是hyx")
+	fmt.Println("我是sb")
 
 	engine.Run(":8888")
 }
